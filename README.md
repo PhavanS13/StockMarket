@@ -1,1 +1,1 @@
-# StockMarket
+# PSYCH

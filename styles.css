@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  color: #fff;
+  background-color: rgb(20, 52, 142);
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  margin-left: 8%;
+  /*transform: rotate(25deg);
+  position: absolute;
+  right: 30%;*/
+}
+
+#features {
+  padding: 7% 15%;
+  /* background-color: #fff;
+  position: relative; */
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: rgb(20, 52, 142);
+  /* color: #32e0c4; */
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #76ead7;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 20%;
+}
+
+.testimonial-image {
+  margin: 20px;
+  /* border-radius: 100%; */
+  width: 15%;
+}
+
+/* Pricing Tag */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA SECTION */
+#cta {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 18px;
+  color: #fff;
+}
+
+#footer {
+  background: rgb(20, 52, 142);
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cright {
+  color: #fff;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+  .nav-item {
+    text-align: right;
+  }
+}
+
+@media (max-width: 950px) {
+  .testimonial-image {
+    width: 40%;
+  }
